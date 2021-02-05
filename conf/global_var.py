@@ -4,18 +4,18 @@ import os
 # project absolute path
 PROJECT_PATH = os.path.dirname(os.path.dirname(__file__))
 
-# Tencent Enterprise email config
-MAIL_HOST = "smtp.exmail.qq.com"
-MAIL_PORT = 25
-MAIL_USER = "yu.li@hualongdata.com"
-MAIL_PWD = "hl.Data2018"
-MAIL_SENDER = 'yu.li@hualongdata.com'
-
-# mail receivers
-MAIL_RECEIVERS = ["yu.li@hualongdata.com"]
-# MAIL_RECEIVERS = ["xxxx@hualongdata.com",
-#                   "xxxx@hualongdata.com"]
-MAIL_SUBJECT = "XX项目 - 自动化测试结果"
+# # Tencent Enterprise email config
+# MAIL_HOST = "smtp.exmail.qq.com"
+# MAIL_PORT = 25
+# MAIL_USER = "xxxx@xxxx.com"
+# MAIL_PWD = ""
+# MAIL_SENDER = 'xxxx@xxxx.com'
+#
+# # mail receivers
+# MAIL_RECEIVERS = ["xxxx@xxxx.com"]
+# # MAIL_RECEIVERS = ["xxxx@xxxx.com",
+# #                   "xxxx@xxxx.com"]
+# MAIL_SUBJECT = "XX项目 - 自动化测试结果"
 
 
 # # Tencent QQ email config

@@ -38,10 +38,6 @@ class BaiduSearch(unittest.TestCase):
         home_page.open(self.URL)
         home_page.search_input(self.search_data)
         home_page.submit_search()
-        home_page.wait(2)
-        home_page.move_back()
-        home_page.wait(2)
-        home_page.move_forward()
 
     def tearDown(self):
         self.driver.quit()
