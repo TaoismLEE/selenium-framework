@@ -3,11 +3,13 @@ geckodriver.log
 
 # report file
 report/automation_test_report.html
+!report
 
 # run logs file
 logs/info.log
 logs/debug.log
 logs/error.log
+!logs
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
