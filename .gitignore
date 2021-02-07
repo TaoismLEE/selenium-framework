@@ -1,8 +1,8 @@
 #browser driver log file
 geckodriver.log
 
-#log files
-logs/*.log
+##log files
+#logs/*.log
 
 #report file
 report/*.html

@@ -24,8 +24,5 @@ if __name__ == "__main__":
     # TencentEnterprise mailbox: TE
     # TencentQQ mailbox: QQ
     # NetEase 163 mailbox: 163
-    obj_email = SendMail(report_file, "TE")
-    obj_email.send_email()
-
-
-
+    # obj_email = SendMail(report_file, "TE")
+    # obj_email.send_email()
